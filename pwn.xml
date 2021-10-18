@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Additional LOS projects -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
+    
     <!-- PWN-Hunter custom Projects -->
 
 </manifest>
