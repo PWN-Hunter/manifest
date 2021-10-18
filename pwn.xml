@@ -4,5 +4,13 @@
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
     
     <!-- PWN-Hunter custom Projects -->
-
+    <project name="PWN-Hunter/android_build" path="build/make" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk">
+        <copyfile src="core/root.mk" dest="Makefile"/>
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+        <linkfile src="core" dest="build/core"/>
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+        <linkfile src="target" dest="build/target"/>
+        <linkfile src="tools" dest="build/tools"/>
+  </project>
 </manifest>

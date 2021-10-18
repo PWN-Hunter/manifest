@@ -4,15 +4,6 @@
   <project name="LineageOS/android_art" path="art" revision="8434c818c0ca5711ed4a184f5edaf690af31fc7c" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="3a003876ad043c5280e0fbb334e8d17c3d941bfc" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
   <project name="LineageOS/android_bootable_recovery" path="bootable/recovery" revision="65427ac5cc1ec51acdc7f8945c5225b331b590b9" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
-  <project name="LineageOS/android_build" path="build/make" revision="fafe0ef22c806bd20f219ceeb92d9c5d91aa4eed" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk">
-    <copyfile src="core/root.mk" dest="Makefile"/>
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
-    <linkfile src="core" dest="build/core"/>
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-    <linkfile src="target" dest="build/target"/>
-    <linkfile src="tools" dest="build/tools"/>
-  </project>
   <project name="LineageOS/android_build_blueprint" path="build/blueprint" revision="48e46e94de92a0a503d873677a20703472fbc13d" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk,tradefed"/>
   <project name="LineageOS/android_build_soong" path="build/soong" revision="c297197e730c61717e5da087d133de72691a14fb" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
