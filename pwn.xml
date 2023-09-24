@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Additional LOS projects -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
-    
-    <!-- PWN-Hunter custom Projects -->
-    <project name="PWN-Hunter/android_build" path="build/make" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk">
-        <copyfile src="core/root.mk" dest="Makefile"/>
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
-        <linkfile src="core" dest="build/core"/>
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-        <linkfile src="target" dest="build/target"/>
-        <linkfile src="tools" dest="build/tools"/>
-  </project>
-    
-    <!-- PWN-Hunter devices (Kernel will be cloned by developer istelf) -->
-    <project path="device/xiaomi/beryllium" name="PWN-Hunter/android_device_xiaomi_beryllium" revision="PWN-18.1"/>
-    <project path="device/xiaomi/sdm845-common" name="PWN-Hunter/android_device_xiaomi_sdm845-common" revision="PWN-18.1"/>
+    <!-- PWN-Hunter devices -->
+    <project name="PWN-Hunter/android_device_samsung_a52q" path="device/samsung/a52q" upstream="lineage-20" dest-branch="lineage-20"/>
+    <project name="PWN-Hunter/android_device_samsung_sm7125-common" path="device/samsung/sm7125-common" upstream="lineage-20" dest-branch="lineage-20"/>
+    <project name="PWN-Hunter/android_kernel_samsung_sm7125" path="kernel/samsung/sm7125" upstream="lineage-20" dest-branch="lineage-20"/>
+
+    <!-- Extra LineageOS parts -->
+    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" upstream="lineage-20"/>
+    <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" upstream="lineage-18.1"/>
 </manifest>

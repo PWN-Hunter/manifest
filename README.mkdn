@@ -1,14 +1,14 @@
-PWN-Hunter R
+PWN-Hunter 13
 ===========
 
 ### PC/Laptop requirements
 * PC/Laptop with linux distro (native or vm)
 * Cpu with sse4+ feature
-* 8+ gb ram
+* 18+ gb ram
 * 250gb + space
-* For the f sake, don't use a phone to compile it
+* For the f sake, don't use a phone to compile it ( yes YOU nh and termux users )
 ### Preffered environments for compiling
 * Ubuntu 18.xx+ and up
 * Kali linux 2020.x and up
 * Fedora 34 and up
-* Maybe even a vm but i dont recommend it.
+* Evolinx
