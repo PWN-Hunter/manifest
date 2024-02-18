@@ -10,5 +10,5 @@
     <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" revision="lineage-18.1"/>
 
     <!-- Modified PWN-Hunter parts -->
-    <project name="PWN-Hunter/external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="PWN-20"/>
+    <project name="PWN-Hunter/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="PWN-20"/>
 </manifest>
