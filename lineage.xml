@@ -68,7 +68,6 @@
   <project name="LineageOS/android_external_unrar" path="external/unrar" revision="33790f0663cc9e3323f0cd21cd8873301ed1cd79" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
   <project name="LineageOS/android_external_vim" path="external/vim" revision="f295b0c918c7669c68ef2dbaab4f26148cf54c2e" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
   <project name="LineageOS/android_external_webp" path="external/webp" revision="67e8c06198ca64e771386999fb2830bad721bc30" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk,qcom_msm8x26"/>
-  <project name="LineageOS/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="c20541a034613ed850ca93f82365aac52aa153b9" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_external_zstd" path="external/zstd" revision="e6a035a8df42f375160f2acabe3caa283a0184d7" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
   <project name="LineageOS/android_frameworks_av" path="frameworks/av" revision="2b3a690861c4c5bcac2809354f9b04241945db0f" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_frameworks_base" path="frameworks/base" revision="100e3f345863c5f92325db5c24597c9ebb3d195a" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk-cw-fs,pdk-fs"/>
