@@ -258,7 +258,6 @@
   <project name="LineageOS/android_system_media" path="system/media" revision="41c2d1ab132fd5388d39418507263e77483fe987" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_system_memory_lmkd" path="system/memory/lmkd" revision="f0efa130377e7e067e203e66c17d8ef87b9e6768" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_system_netd" path="system/netd" revision="43d137e94717639b96f5020607920f734433be92" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
-  <project name="LineageOS/android_system_security" path="system/security" revision="152f7b0b83647e9c3b74c47fd6bfc423fd2ffe7f" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_system_sepolicy" path="system/sepolicy" revision="65ac550f66480aed7cdfc50960c85dd04c00d4fc" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_system_timezone" path="system/timezone" revision="5fdf826c764e6fa2350d1825155c663e124dec56" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_system_tools_mkbootimg" path="system/tools/mkbootimg" revision="40a19c4c5ffe8b86c6c61318c8aa4ffe35d6e7ad" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
