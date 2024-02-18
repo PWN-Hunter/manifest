@@ -12,4 +12,5 @@
     <!-- Modified PWN-Hunter parts -->
     <project name="PWN-Hunter/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="lineage-20.0"/>
     <project name="PWN-Hunter/android_vendor_lineage" path="vendor/lineage" revision="PWN-20"/>
+    <project name="PWN-Hunter/android_system_security" path="vendor/lineage" revision="PWN-20"/>
 </manifest>
